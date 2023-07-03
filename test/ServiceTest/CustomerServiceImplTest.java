@@ -54,6 +54,7 @@ public class CustomerServiceImplTest {
         assertEquals("goodness",customerService.viewProfile(customerId).getFirstName());
         assertEquals("obinali",customerService.viewProfile(customerId).getLastName());
         assertEquals("goodnessobinali@gmail.com",customerService.viewProfile(customerId).getEmail());
+        System.out.println(customerService.viewProfile(customerId));
     }
 
     @Test
@@ -64,5 +65,6 @@ public class CustomerServiceImplTest {
         var registeredCustomer = customerService.registerCustomer(registerRequest);
         var customerId = registeredCustomer.getCustomerId();
         assertEquals("deleted successfully",customerService.deleteAccount(customerId));
+        System.out.println(customerService.viewProfile(customerId));
     }
 }

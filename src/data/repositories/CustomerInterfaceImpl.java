@@ -3,6 +3,7 @@ package data.repositories;
 import data.models.Customer;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CustomerInterfaceImpl implements CustomerInterface {
     private static ArrayList<Customer> customers = new ArrayList<>();

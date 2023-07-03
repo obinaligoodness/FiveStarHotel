@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="02e9c1d5-7dda-4168-8622-0849ea565b3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FiveStarHotel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiveStarHotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FiveStarHotel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CustomerInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CustomerInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/RoomInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/RoomInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/RoomInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/RoomInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/ReservationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/ReservationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ServiceTest/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ServiceTest/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ServiceTest/ReservationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ServiceTest/ReservationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ServiceTest/RoomServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ServiceTest/RoomServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/repositoryTest/RoomInterfaceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/repositoryTest/RoomInterfaceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +89,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2PBvUQCrdQShtHAjkpwSLTC1umw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,10 +113,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/health/Loan-Application&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ReservationServiceImplTest">
+  <component name="RunManager" selected="JUnit.ReservationServiceImplTest.testThatAReservedRoomCanBeSavedInReservations">
     <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveStarHotel" />
       <extension name="coverage">
@@ -61,22 +130,6 @@
       <option name="PACKAGE_NAME" value="ServiceTest" />
       <option name="MAIN_CLASS_NAME" value="ServiceTest.CustomerServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerServiceImplTest.testThatCustomerCanUpdateEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FiveStarHotel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ServiceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ServiceTest" />
-      <option name="MAIN_CLASS_NAME" value="ServiceTest.CustomerServiceImplTest" />
-      <option name="METHOD_NAME" value="testThatCustomerCanUpdateEmail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomInterfaceImplTest.testThatARoomCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReservationServiceImplTest.testThatAReservedRoomCanBeSavedInReservations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FiveStarHotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServiceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest.ReservationServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatAReservedRoomCanBeSavedInReservations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomInterfaceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveStarHotel" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +175,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="repositoryTest" />
       <option name="MAIN_CLASS_NAME" value="repositoryTest.RoomInterfaceImplTest" />
-      <option name="METHOD_NAME" value="testThatARoomCanBeDeleted" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomServiceImplTest.testThatCustomerCanReserveARoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FiveStarHotel" />
       <extension name="coverage">
         <pattern>
@@ -122,19 +190,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="ServiceTest" />
       <option name="MAIN_CLASS_NAME" value="ServiceTest.RoomServiceImplTest" />
-      <option name="METHOD_NAME" value="testThatCustomerCanReserveARoom" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReservationServiceImplTest.testThatAReservedRoomCanBeSavedInReservations" />
+        <item itemvalue="JUnit.RoomServiceImplTest" />
         <item itemvalue="JUnit.ReservationServiceImplTest" />
-        <item itemvalue="JUnit.RoomServiceImplTest.testThatCustomerCanReserveARoom" />
         <item itemvalue="JUnit.CustomerServiceImplTest" />
-        <item itemvalue="JUnit.CustomerServiceImplTest.testThatCustomerCanUpdateEmail" />
-        <item itemvalue="JUnit.RoomInterfaceImplTest.testThatARoomCanBeDeleted" />
+        <item itemvalue="JUnit.RoomInterfaceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +236,17 @@
       <workItem from="1685606345271" duration="4242000" />
       <workItem from="1685891863475" duration="754000" />
       <workItem from="1685991890632" duration="2495000" />
-      <workItem from="1686055226207" duration="2928000" />
+      <workItem from="1686055226207" duration="8801000" />
+      <workItem from="1686146772456" duration="691000" />
+      <workItem from="1686644983295" duration="2741000" />
+      <workItem from="1686734036815" duration="594000" />
+      <workItem from="1686814810532" duration="1760000" />
+      <workItem from="1686903045978" duration="603000" />
+      <workItem from="1687070027922" duration="1248000" />
+      <workItem from="1687445797144" duration="1026000" />
+      <workItem from="1687509656001" duration="719000" />
+      <workItem from="1687980172183" duration="6937000" />
+      <workItem from="1688402287944" duration="1829000" />
     </task>
     <servers />
   </component>

@@ -81,15 +81,15 @@ public class ReservationResponse {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("ReservationResponse{");
-        sb.append("customerFirstName='").append(customerFirstName).append('\'');
-        sb.append(", customerLastName='").append(customerLastName).append('\'');
-        sb.append(", customerEmail='").append(customerEmail).append('\'');
-        sb.append(", roomType=").append(roomType);
-        sb.append(", roomNumber=").append(roomNumber);
-        sb.append(", roomPrice=").append(roomPrice);
-        sb.append(", checkInDate=").append(checkInDate);
-        sb.append(", checkOutDate=").append(checkOutDate);
-        sb.append('}');
+        sb.append("customerFirstName='").append(customerFirstName).append('\n')
+        .append(", customerLastName='").append(customerLastName).append('\n')
+        .append(", customerEmail='").append(customerEmail).append('\n')
+        .append(", roomType=").append(roomType).append('\n')
+        .append(", roomNumber=").append(roomNumber).append('\n')
+        .append(", roomPrice=").append(roomPrice).append('\n')
+        .append(", checkInDate=").append(checkInDate)
+        .append(", checkOutDate=").append(checkOutDate)
+        .append('}');
         return sb.toString();
     }
 }

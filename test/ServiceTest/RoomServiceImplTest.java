@@ -11,6 +11,10 @@ import services.CustomerServiceImpl;
 import services.RoomService;
 import services.RoomServiceImpl;
 
+import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class RoomServiceImplTest {
     RoomService roomService;
     RegisterRequest registerRequest;
@@ -20,6 +24,7 @@ public class RoomServiceImplTest {
         roomService = new RoomServiceImpl();
         registerRequest = new RegisterRequest();
         customerService = new CustomerServiceImpl();
+        roomService.createRoom();
     }
     @Test
     public void testThatCustomerCanReserveARoom(){
@@ -29,8 +34,12 @@ public class RoomServiceImplTest {
         var registeredCustomer = customerService.registerCustomer(registerRequest);
         ReservationRequest reservationRequest = new ReservationRequest();
         reservationRequest.setCustomerId(registeredCustomer.getCustomerId());
-        reservationRequest.setRoomType(RoomType.SINGLE);
-        reservationRequest.setRoomNumber(1);
-        System.out.println(roomService.reserveRoom(reservationRequest));
+        reservationRequest.setCustomerFirstName(registeredCustomer.getFirstName());
+        reservationRequest.setCustomerLastName(registeredCustomer.getLastName());
+        reservationRequest.setRoomNumber(5);
+        reservationRequest.setCustomerEmail(registeredCustomer.getEmail());
+        var reservedRoom = roomService.reserveRoom(reservationRequest);
+        assertEquals(registeredCustomer.getFirstName(),reservedRoom.getCustomerFirstName());
+
     }
 }

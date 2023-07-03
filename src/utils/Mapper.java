@@ -83,4 +83,17 @@ public class Mapper {
         return customer;
     }
 
+    public static ReservationRequest map(Room savedRoom, ReservationRequest reservationRequest1) {
+        reservationRequest1.setRoomNumber(savedRoom.getRoomNumber());
+        reservationRequest1.setRoomPrice(savedRoom.getRoomPrice());
+        reservationRequest1.setRoomType(savedRoom.getRoomType());
+        reservationRequest1.setCustomerId(savedRoom.getCustomerId());
+        reservationRequest1.setCheckInDate(savedRoom.getCheckInDate());
+        reservationRequest1.setCheckOutDate(savedRoom.getCheckOutDate());
+        reservationRequest1.setCustomerFirstName(savedRoom.getCustomerFirstName());
+        reservationRequest1.setCustomerLastName(savedRoom.getCustomerLastName());
+        reservationRequest1.setCustomerEmail(savedRoom.getCustomerEmail());
+
+        return  reservationRequest1;
+    }
 }

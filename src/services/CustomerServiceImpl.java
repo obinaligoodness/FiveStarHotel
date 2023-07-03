@@ -21,8 +21,10 @@ public class CustomerServiceImpl implements CustomerService{
     @Override
     public ProfileResponse viewProfile(int customerId) {
         var foundCustomer = customerInterface.findCustomerById(customerId);
+        if (foundCustomer!=null){
         var mappedCustomer = Mapper.map(foundCustomer);
-       return Mapper.map(mappedCustomer);
+       return Mapper.map(mappedCustomer);}
+        return null;
     }
 
     @Override

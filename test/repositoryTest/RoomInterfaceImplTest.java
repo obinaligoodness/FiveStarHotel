@@ -24,8 +24,10 @@ public class RoomInterfaceImplTest {
         room.setCustomerId(1);
         room.setRoomType(RoomType.SINGLE);
         room.setCustomerId(1);
+        room.setRoomNumber(1);
         var savedRoom = roomInterface.save(room);
-        assertEquals(0,savedRoom.getRoomNumber());
+        assertEquals(1,savedRoom.getRoomNumber());
+        System.out.println(savedRoom);
     }
     @Test
     public void testThatRoomCanBeFoundByRoomNumber(){

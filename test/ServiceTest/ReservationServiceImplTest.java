@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import services.*;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ReservationServiceImplTest {
@@ -25,12 +27,13 @@ public class ReservationServiceImplTest {
     @Test
     public void testThatAReservedRoomCanBeSavedInReservations() {
         roomService.createRoom();
+        // registering customer
         registerRequest.setFirstName("goodness");
         registerRequest.setLastName("obinali");
         registerRequest.setEmail("obiali@goodnessshhdfegb");
         var registeredCustomer = customerService.registerCustomer(registerRequest);
 
-
+        //reserving a room for the first customer
         ReservationRequest reservationRequest = new ReservationRequest();
         reservationRequest.setCustomerId(registeredCustomer.getCustomerId());
         reservationRequest.setRoomType(RoomType.SINGLE);
@@ -41,10 +44,7 @@ public class ReservationServiceImplTest {
         var reservedRoom = roomService.reserveRoom(reservationRequest);
 
 
-
-
-
-
+        // registering another customer
         RegisterRequest registerRequest1 = new RegisterRequest();
         registerRequest1.setFirstName("victor");
         registerRequest1.setLastName("obinali");
@@ -52,6 +52,7 @@ public class ReservationServiceImplTest {
         var secondRegisteredCustomer = customerService.registerCustomer(registerRequest1);
 
 
+        //rserving the same room for the second customer
         ReservationRequest reservationRequest1 = new ReservationRequest();
         reservationRequest1.setCustomerId(secondRegisteredCustomer.getCustomerId());
         reservationRequest1.setRoomNumber(1);
@@ -61,15 +62,14 @@ public class ReservationServiceImplTest {
         reservationRequest1.setCustomerEmail(secondRegisteredCustomer.getEmail());
         var reservedRoom1 = roomService.reserveRoom(reservationRequest1);
 
-        System.out.println("***"+roomService.findAllRooms());
+        //checking the rooms to see who is in the room the two customers tried to reserve
+        System.out.println("***"+ Arrays.toString(roomService.findAllRooms()));
 
-
-//        CustomerResponse customerResponse = new CustomerResponse();
-//        customerResponse.setId(secondRegisteredCustomer.getCustomerId());
-//        CustomerResponse customerResponse1 = new CustomerResponse();
-//
-//        System.out.println(reservationService.customersReservations(customerResponse));
-        System.out.println(reservationService.findAllReservations());
+        //checking if the reservation repository saved the two customers when they both tried to reserve the same room
+        System.out.println("+++"+reservationService.findAllReservations());
+        CustomerResponse customerResponse = new CustomerResponse();
+        customerResponse.setId(registeredCustomer.getCustomerId());
+        assertEquals("goodness",reservationService.customersReservations(customerResponse).getCustomerFirstName());
     }
     @Test
     public void test(){
